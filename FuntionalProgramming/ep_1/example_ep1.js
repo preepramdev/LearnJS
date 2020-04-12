@@ -27,7 +27,7 @@ console.log('Assigning: ', addAssigning(1, 6));
 // // 3.2 Returning a funtion
 function addReturning(a, b) {
     return function () {
-        return a+ b;
+        return a + b;
     }
 }
 const addTwoNumber = addReturning(1, 6);
@@ -35,7 +35,7 @@ console.log('Returning: ', addTwoNumber())
 
 // // 3.3 Accepting a funtion as a argument
 function addNumber(a, b) {
-    return a+b;
+    return a + b;
 }
 
 function addAccepting(add, a, b) {

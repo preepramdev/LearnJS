@@ -83,7 +83,7 @@ console.log('\n<-- End Map \n');
 console.log('Begins Reduce --> \n');
 // // 3.1 Old Style
 let totalAgeOldStyle = 0;
-for(let i = 0; i < persons.length; i++) {
+for (let i = 0; i < persons.length; i++) {
     const person = persons[i];
     totalAgeOldStyle += person.age;
 }
